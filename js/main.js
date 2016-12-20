@@ -1,9 +1,15 @@
+function isEmail(email) {
+    return /(.+)@(.+){2,}\.(.+){2,}/.test(email)
+}
+
 $(function(ready){
     var email = $('#email');
     var signup = $('#signup');
 
     email.on('input', function() {
-        if ($.trim(email.val()).length > 0) {
+        emailValue = email.val();
+
+        if ($.trim(emailValue).length > 0 && isEmail(emailValue)) {
             signup.removeClass("disabled");
         } else {
             signup.addClass("disabled");
