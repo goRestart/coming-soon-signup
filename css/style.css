@@ -155,3 +155,7 @@ li {
       -webkit-appearance: none; }
     .center-content form .disabled {
       background-color: red; }
+
+@media (max-width: 600px) {
+  .center-content form .submit {
+    top: 28px; } }

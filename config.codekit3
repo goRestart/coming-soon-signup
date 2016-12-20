@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "AAD75A3B-DE73-4932-B32A-1703894DF1AE"
+		"uuidString": "8595498B-5A18-4B2F-8D22-371C5846D47F"
 		}
 	],
 "creatorBuild": "25479",
@@ -1867,8 +1867,8 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 503952315,
-	"displayValue": "coming soon",
+	"creationDate": 503959440,
+	"displayValue": "coming-soon-github",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_purple"
 	},
