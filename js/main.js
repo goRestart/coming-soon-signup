@@ -26,3 +26,10 @@ $(function(ready){
         });
     });
 });
+
+//Appear effect
+$(function() {
+  $("#signup").click(function() {
+    $(".toast").addClass('appear');
+  });
+});
